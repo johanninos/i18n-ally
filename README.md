@@ -1,3 +1,17 @@
+fork form [https://github.com/johanninos/i18n-ally](https://github.com/johanninos/i18n-ally)
+
+add **most-similar-by-key** option in **targetPickingStrategy**
+
+```json
+{ "i18n-ally.extract.targetPickingStrategy": "most-similar-by-key" }
+```
+
+Temporarily used until [https://github.com/lokalise/i18n-ally/pull/758](https://github.com/lokalise/i18n-ally/pull/758)  be merged
+
+
+## original readme.md ⬇️
+<hr>
+
 <p align="center">
 <img src="https://github.com/lokalise/i18n-ally/blob/main/screenshots/full-logo-new.png?raw=true" alt="logo" width="450"/>
 </p>

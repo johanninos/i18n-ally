@@ -28,7 +28,7 @@ export class LocaleLoader extends Loader {
 
   async init() {
     if (await this.findLocaleDirs()) {
-      Log.info(`🚀 Initializing loader "${this.rootpath}"`)
+      Log.info(`🚀 🚀 Initializing loader "${this.rootpath}"`)
       this._dir_structure = await this.guessDirStructure()
       Log.info(`📂 Directory structure: ${this._dir_structure}`)
 
