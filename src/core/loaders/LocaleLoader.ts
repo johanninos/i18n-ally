@@ -184,7 +184,7 @@ export class LocaleLoader extends Loader {
       return this.findBestMatchFile(pending.textFromPath, paths)
 
     if (Config.targetPickingStrategy === TargetPickingStrategy.MostSimilarByKey && keypath)
-      return this.findBestMatchFile(keypath, paths)
+      return this.findBestMatchFile(`${this._locale_dirs}/${keypath.split('.')[0]}`, paths)
 
     if (Config.targetPickingStrategy === TargetPickingStrategy.FilePrevious && pending.textFromPath)
       return this.handleExtractToFilePrevious(pending.textFromPath, paths, keypath)
@@ -251,7 +251,8 @@ export class LocaleLoader extends Loader {
   }
 
   findBestMatchFile(fromPath: string, paths: string[]): string {
-    return findBestMatch(fromPath, paths).bestMatch.target
+    const result = findBestMatch(fromPath, paths).bestMatch.target
+    return result
   }
 
   async write(pendings: PendingWrite|PendingWrite[]) {

@@ -1,7 +1,7 @@
 {
   "publisher": "johanninos",
   "name": "i18n-ally-parallel",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "displayName": "i18n-ally Parallel",
   "description": "🌍 All in one i18n extension for VS Code fork from https://github.com/lokalise/i18n-ally",
   "keywords": [
@@ -1172,6 +1172,7 @@
           "enumDescriptions": [
             "%config.target_picking_strategy.none%",
             "%config.target_picking_strategy.most-similar%",
+            "%config.target_picking_strategy.most-similar-by-key%",
             "%config.target_picking_strategy.file-previous%",
             "%config.target_picking_strategy.global-previous%",
             "%config.target_picking_strategy.most-similar-by-key%"
