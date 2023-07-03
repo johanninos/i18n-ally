@@ -11,7 +11,7 @@ import { Parser } from './base'
 
 export const DefaultEnabledParsers = ['json', 'yaml', 'json5']
 
-export const AvailableParsers: Parser[] = [
+export const getAvailableParsers: () => Parser[] = () => [
   // enabled parsers
   new JsonParser(),
   new YamlParser(),

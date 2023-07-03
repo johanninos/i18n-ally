@@ -155,6 +155,7 @@
   "prompt.frameworks_not_found": "Följande ramverk går inte att hitta. Vänligen se dina inställningar.\n{0}",
   "prompt.fullfill_missing_all_confirm": "Är du säker på att du vill skapa alla saknade nycklar med tomma strängar för alla locale-filer?\n\nDetta går inte att ångra!",
   "prompt.fullfill_missing_confirm": "Är du säker på att du vill skapa {0} saknade nycklar med tomma strängar i {1}?\n\nDetta går inte att ångra!",
+  "prompt.invalid_ecmascript_parser": "",
   "prompt.invalid_keypath": "Ogiltig nyckelsökväg!",
   "prompt.key_already_exists": "Nyckel finns redan. Vill du överskriva nuvarande nyckel eller återange sökvägen?",
   "prompt.key_copied": "Nyckel kopierad.",
@@ -229,5 +230,6 @@
   "view.usage_keys_in_use": "{0} nycklar används",
   "view.usage_keys_missing": "{0} nycklar saknas",
   "view.usage_keys_not_in_use": "{0} nycklar används INTE",
-  "view.usage_report_none": "Tryck på uppdatera för att starta analysering av nyckelanvändning"
+  "view.usage_report_none": "Tryck på uppdatera för att starta analysering av nyckelanvändning",
+  "นามสกุล": ""
 }

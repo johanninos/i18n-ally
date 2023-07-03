@@ -721,6 +721,11 @@
           "default": true,
           "description": "%config.auto_detection%"
         },
+        "i18n-ally.customEcmascriptParser": {
+          "type": "boolean",
+          "default": false,
+          "description": "%config.custom_ecmascript_parser%"
+        },
         "i18n-ally.localesPaths": {
           "type": [
             "string",

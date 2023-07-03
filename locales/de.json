@@ -155,6 +155,7 @@
   "prompt.frameworks_not_found": "{0} Framework(s) wurde(n) nicht gefunden. Bitte überprüfen Sie Ihre Einstellungen.",
   "prompt.fullfill_missing_all_confirm": "Sind Sie sicher, dass Sie alle fehlenden Schlüssel mit leeren Zeichenketten über alle Sprachen hinweg füllen wollen?\n\nDieser Vorgang kann nicht rückgängig gemacht werden!",
   "prompt.fullfill_missing_confirm": "Sind Sie sicher, dass Sie {0} fehlende Schlüssel mit leeren Zeichenfolgen in {1} erfüllen wollen?\n\nDieser Vorgang kann nicht rückgängig gemacht werden!",
+  "prompt.invalid_ecmascript_parser": "",
   "prompt.invalid_keypath": "Ungültiger Schlüsselpfad!",
   "prompt.key_already_exists": "Schlüssel ist bereits vorhanden. Möchten Sie den vorhandenen Wert überschreiben oder den Pfad neu eingeben?",
   "prompt.key_copied": "Schlüssel kopiert",
@@ -229,5 +230,6 @@
   "view.usage_keys_in_use": "{0} Schlüssel sind in Verwendung",
   "view.usage_keys_missing": "{0} Schlüssel fehlen",
   "view.usage_keys_not_in_use": "{0} Schlüssel nicht in Verwendung",
-  "view.usage_report_none": "Neulanden um Schlüssel Benutzng zu analysieren"
+  "view.usage_report_none": "Neulanden um Schlüssel Benutzng zu analysieren",
+  "นามสกุล": ""
 }
