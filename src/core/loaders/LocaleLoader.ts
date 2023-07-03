@@ -183,8 +183,13 @@ export class LocaleLoader extends Loader {
     if (Config.targetPickingStrategy === TargetPickingStrategy.MostSimilar && pending.textFromPath)
       return this.findBestMatchFile(pending.textFromPath, paths)
 
-    if (Config.targetPickingStrategy === TargetPickingStrategy.MostSimilarByKey && keypath)
-      return this.findBestMatchFile(`${this._locale_dirs}/${keypath.split('.')[0]}`, paths)
+    if (Config.targetPickingStrategy === TargetPickingStrategy.MostSimilarByKey && keypath) {
+      const splitSymbol = Config.namespace ? Global.getNamespaceDelimiter() : '.'
+      const prefixKey = keypath.split(splitSymbol)[0]
+      const matched = this.findBestMatchFile(`${this._locale_dirs}/${prefixKey}`, paths)
+      if (matched.includes(prefixKey))
+        return matched
+    }
 
     if (Config.targetPickingStrategy === TargetPickingStrategy.FilePrevious && pending.textFromPath)
       return this.handleExtractToFilePrevious(pending.textFromPath, paths, keypath)
