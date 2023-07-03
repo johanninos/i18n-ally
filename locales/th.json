@@ -90,6 +90,7 @@
   "config.target_picking_strategy.file-previous": "แยกข้อความไปยังไฟล์ตำแหน่งภาษาที่เลือกก่อนหน้าของไฟล์ปัจจุบัน",
   "config.target_picking_strategy.global-previous": "แยกข้อความไปยังไฟล์ (ปัจจุบันหรือไฟล์อื่น) ของไฟล์ภาษาที่เลือกก่อนหน้า",
   "config.target_picking_strategy.most-similar": "แยกข้อความไปยังไฟล์โดยอัตโนมัติ ซึ่งเส้นทางที่ตรงกับเส้นทางของไฟล์ปัจจุบันมากที่สุด",
+  "config.target_picking_strategy.most-similar-by-key": "",
   "config.target_picking_strategy.none": "ผู้ใช้เลือกไฟล์ที่ต้องการแยกข้อความด้วยตนเอง",
   "config.translate.engines": "บริการแปลภาษา",
   "config.translate.fallbackToKey": "ใช้คีย์เองเพื่อแปลเมื่อไม่มีการแปลต้นฉบับสำหรับคีย์นั้น",
@@ -108,7 +109,7 @@
   "errors.translating_unknown_error": "ข้อผิดพลาดที่ไม่รู้จักเกิดขึ้นในการแปล",
   "errors.unsupported_file_type": "ประเภทไฟล์ที่ไม่รองรับ: \"{0}\"",
   "errors.write_in_readonly_mode": "การเขียนในโหมดอ่านอย่างเดียวถูกปิดใช้งาน",
-  "นามสกุล": "i18n Ally",
+  "extname": "",
   "feedback.document": "อ่านเอกสาร",
   "feedback.github": "ติดดาวบน GitHub",
   "feedback.report_issues": "รายงานปัญหา",
@@ -154,6 +155,7 @@
   "prompt.frameworks_not_found": "ไม่พบกรอบต่อไปนี้ โปรดตรวจสอบการตั้งค่าของคุณ\n{0}",
   "prompt.fullfill_missing_all_confirm": "คุณแน่ใจหรือไม่ว่าคุณต้องการเติมเต็มคีย์ที่ขาดหายไปทั้งหมดด้วยสตริงว่างข้ามภาษาทั้งหมด\n\nการดำเนินการนี้ไม่สามารถยกเลิกได้!",
   "prompt.fullfill_missing_confirm": "คุณแน่ใจหรือไม่ว่าคุณต้องการเติมเต็ม {0} คีย์ที่ขาดหายไปด้วยสตริงว่างใน {1}?\n\nการดำเนินการนี้ไม่สามารถยกเลิกได้!",
+  "prompt.invalid_ecmascript_parser": "",
   "prompt.invalid_keypath": "คีย์เส้นทางไม่ถูกต้อง!",
   "prompt.key_already_exists": "มีคีย์อยู่แล้ว คุณต้องการแทนที่ค่าที่มีอยู่หรือป้อนเส้นทางอีกครั้ง",
   "prompt.key_copied": "คัดลอกคีย์แล้ว",
@@ -228,5 +230,6 @@
   "view.usage_keys_in_use": "กำลังใช้ {0} คีย์",
   "view.usage_keys_missing": "{0} คีย์หายไป",
   "view.usage_keys_not_in_use": "{0} คีย์ไม่ได้ถูกใช้งาน",
-  "view.usage_report_none": "กดรีเฟรชเพื่อเริ่มวิเคราะห์การใช้คีย์"
+  "view.usage_report_none": "กดรีเฟรชเพื่อเริ่มวิเคราะห์การใช้คีย์",
+  "นามสกุล": "i18n Ally"
 }

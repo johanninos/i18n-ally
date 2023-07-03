@@ -155,6 +155,7 @@
   "prompt.frameworks_not_found": "No se encuentran los siguientes frameworks. Por favor, compruebe su configuración.\n{0}",
   "prompt.fullfill_missing_all_confirm": "¿Está seguro de completar todas las claves que faltan con cadenas de texto vacías?\n\nEsta operación no se puede deshacer.",
   "prompt.fullfill_missing_confirm": "¿Está seguro de completar {0} claves que faltan con cadenas de texto vacías en {1}?\n\nEsta operación no se puede deshacer.",
+  "prompt.invalid_ecmascript_parser": "",
   "prompt.invalid_keypath": "¡Ruta de la clave inválido!",
   "prompt.key_already_exists": "La clave ya existe. ¿Desea sobrescribir los valores existentes o volver a introducir la ruta?",
   "prompt.key_copied": "Clave copiada.",
@@ -229,5 +230,6 @@
   "view.usage_keys_in_use": "{0} claves en uso",
   "view.usage_keys_missing": "Faltan las claves {0}",
   "view.usage_keys_not_in_use": "Las claves {0} NO están en uso",
-  "view.usage_report_none": "Presione actualizar para comenzar a analizar el uso de las teclas"
+  "view.usage_report_none": "Presione actualizar para comenzar a analizar el uso de las teclas",
+  "นามสกุล": ""
 }

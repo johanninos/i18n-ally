@@ -98,6 +98,7 @@
   "config.translate_override_existing": "Override existing messages on translating",
   "config.translate_save_as_candidates": "Save translations result to \"Translation Candidates\" instead of writting to the locale files.",
   "config.usage.scanning_ignore": "Ignore glob patterns for scanning key usage",
+  "config.custom_ecmascript_parser": "Enable custom ECMAScript parser",
   "editor.add_description": "Add description...",
   "editor.empty": "(empty)",
   "editor.title": "i18n Ally Editor",
@@ -155,6 +156,7 @@
   "prompt.frameworks_not_found": "The following framework(s) are not found. Please check your settings.\n{0}",
   "prompt.fullfill_missing_all_confirm": "Are you sure you want to fulfill all missing keys with empty strings cross all locales?\n\nThis operation cannot be undone!",
   "prompt.fullfill_missing_confirm": "Are you sure you want to fulfill {0} missing keys with empty strings in {1}?\n\nThis operation cannot be undone!",
+  "prompt.invalid_ecmascript_parser": "",
   "prompt.invalid_keypath": "Invalid keypath!",
   "prompt.key_already_exists": "Key already exists. Do you want to override the existing value or re-enter the path?",
   "prompt.key_copied": "Key copied.",
@@ -229,5 +231,6 @@
   "view.usage_keys_in_use": "{0} keys are in use",
   "view.usage_keys_missing": "{0} keys are missing",
   "view.usage_keys_not_in_use": "{0} keys are NOT in use",
-  "view.usage_report_none": "Press refresh to start analysing key usage"
+  "view.usage_report_none": "Press refresh to start analysing key usage",
+  "นามสกุล": ""
 }

@@ -46,6 +46,10 @@ export class Config {
 
   static ctx: ExtensionContext
 
+  static get customEcmascriptParser() {
+    return Config.getConfig<boolean>('customEcmascriptParser') ?? false
+  }
+
   static get root() {
     return workspace.rootPath!
   }

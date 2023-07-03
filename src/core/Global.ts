@@ -6,7 +6,7 @@ import { isMatch } from 'micromatch'
 import { ParsePathMatcher } from '../utils/PathMatcher'
 import { EXT_NAMESPACE } from '../meta'
 import { ConfigLocalesGuide } from '../commands/configLocalePaths'
-import { AvailableParsers, DefaultEnabledParsers } from '../parsers'
+import { getAvailableParsers, DefaultEnabledParsers } from '../parsers'
 import { Framework } from '../frameworks/base'
 import { getEnabledFrameworks, getEnabledFrameworksByIds, getPackageDependencies } from '../frameworks'
 import { checkNotification } from '../update-notification'
@@ -416,7 +416,7 @@ export class Global {
     if (!ids.length)
       ids = DefaultEnabledParsers
 
-    return AvailableParsers.filter(i => ids.includes(i.id))
+    return getAvailableParsers().filter(i => ids.includes(i.id))
   }
 
   static getMatchedParser(ext: string) {

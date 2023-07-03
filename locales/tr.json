@@ -155,6 +155,7 @@
   "prompt.frameworks_not_found": "Bu framework(ler) bulunamadı. Lütfen ayarlarınızı kontrol edin.\n{0}",
   "prompt.fullfill_missing_all_confirm": "Tüm dillerde eksik olan çeviri değerlerini boş alan ile doldurmak istediğinize emin misiniz?\n\nBu işlem geriye alınamaz!",
   "prompt.fullfill_missing_confirm": "{1} dilinde eksik olan çeviri değerlerini boş alan ile doldurmak istediğinize emin misiniz?\n\nBu işlem geriye alınamaz!",
+  "prompt.invalid_ecmascript_parser": "",
   "prompt.invalid_keypath": "Geçersiz anahtar alanı!",
   "prompt.key_already_exists": "Anahtar zaten mevcut. Mevcut değeri geçersiz kılmak mı yoksa anahtarın alanını yeniden mi girmek istiyorsunuz?",
   "prompt.key_copied": "Anahtar kopyalandı",
@@ -229,5 +230,6 @@
   "view.usage_keys_in_use": "{0} çeviri kullanımda",
   "view.usage_keys_missing": "{0} çeviri eksik",
   "view.usage_keys_not_in_use": "{0} çeviri kullanımda DEĞİL",
-  "view.usage_report_none": "Çeviri kullanımını incelemek için yenileye basın"
+  "view.usage_report_none": "Çeviri kullanımını incelemek için yenileye basın",
+  "นามสกุล": ""
 }

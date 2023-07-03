@@ -155,6 +155,7 @@
   "prompt.frameworks_not_found": "Framework(s) a seguir não encontrado(s). Revise suas confifurações.\n{0}",
   "prompt.fullfill_missing_all_confirm": "Tem certeza que quer preencher as chaves faltantes com strings vazias em todos os arquivos de localização?\n\n Esta operação não poderá ser desfeita.",
   "prompt.fullfill_missing_confirm": "Tem certeza que quer preencher {0} chaves faltantes com strings vazias em {1}?\n\nEsta operação não poderá ser desfeita.",
+  "prompt.invalid_ecmascript_parser": "",
   "prompt.invalid_keypath": "Caminho de chave inválido!",
   "prompt.key_already_exists": "Chave já existente. Gostaria de sobrescrever o seu valor ou reinserir o caminho?",
   "prompt.key_copied": "Chave copiada",
@@ -229,5 +230,6 @@
   "view.usage_keys_in_use": "{0} chaves em uso",
   "view.usage_keys_missing": "{0} chaves faltantes",
   "view.usage_keys_not_in_use": "{0} chaves não estão em uso",
-  "view.usage_report_none": ""
+  "view.usage_report_none": "",
+  "นามสกุล": ""
 }
