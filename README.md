@@ -4,6 +4,24 @@ add **most-similar-by-key** option in **targetPickingStrategy**
 
 ```json
 { "i18n-ally.extract.targetPickingStrategy": "most-similar-by-key" }
+
+根据key的前缀找到对应的文件
+```
+
+```
+创建//.vscode/i18n-ally-custom-ecmascript-parser.js 文件
+
+如:
+
+module.exports = (obj, indent) => {
+  //replace end } with ,\n}; to allow trailing comma
+  return `export default ${JSON.stringify(obj, null, 4)};`.replace(/\n};/, ',\n};\n');
+}
+
+可支持ts文件写入
+
+
+
 ```
 
 Temporarily used until [https://github.com/lokalise/i18n-ally/pull/758](https://github.com/lokalise/i18n-ally/pull/758)  be merged
