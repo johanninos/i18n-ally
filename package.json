@@ -1,7 +1,7 @@
 {
   "publisher": "johanninos",
   "name": "i18n-ally-parallel",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "displayName": "i18n-ally Parallel",
   "description": "🌍 All in one i18n extension for VS Code fork from https://github.com/lokalise/i18n-ally",
   "keywords": [
